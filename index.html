@@ -1,0 +1,13 @@
+<script type="text/javascript"> 
+window.onload = function() { 
+
+	var ln = x=window.navigator.language||navigator.browserLanguage; 
+	if(ln == 'en'){ 
+	window.location.href = 'en/index.php';//si esta en inglés va a ingles 
+	}else if(ln == 'es'){ 
+	window.location.href = 'es/index.php'; // si es es va a español 
+	}else{ 
+	window.location.href = 'en/index.php'; // si no es ninguna de los dos va a español 
+	} 
+	} 
+</script>
